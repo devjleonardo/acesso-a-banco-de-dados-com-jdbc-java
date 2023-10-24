@@ -1,0 +1,2 @@
+## Demonstração de como recuperar dados
+![image](https://raw.githubusercontent.com/devjleonardo/assets/main/acesso-a-banco-de-dados-com-jdbc-java/03%20-%20Demonstra%C3%A7%C3%A3o%20de%20como%20recuperar%20dados/Demonstra%C3%A7%C3%A3o%20de%20como%20recuperar%20dados.png)
