@@ -106,3 +106,13 @@ private Department instantiateDepartment(ResultSet resultSet) throws SQLExceptio
 - SQL Query:
     - DELETE FROM seller <br/>
       WHERE Id = ?
+
+## Implementando DepartmentDao e testando
+
+###### Lista de controle:
+
+- DepartmentDaoJDBC
+
+- DaoFactory
+
+- Program2
