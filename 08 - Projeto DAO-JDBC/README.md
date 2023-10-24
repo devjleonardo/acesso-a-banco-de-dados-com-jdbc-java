@@ -100,3 +100,9 @@ private Department instantiateDepartment(ResultSet resultSet) throws SQLExceptio
     - UPDATE seller <br/>
       SET Name = ?, Email = ?, BirthDate = ?, BaseSalary = ?, DepartmentId = ? <br/>
       WHERE Id = ?
+
+## Implementando delete SellerDao
+
+- SQL Query:
+    - DELETE FROM seller <br/>
+      WHERE Id = ?
