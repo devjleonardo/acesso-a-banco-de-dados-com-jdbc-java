@@ -39,9 +39,9 @@
 ## Implementando findById SellerDao
 
 - SQL Query:
-  - SELECT seller.*, department.Name as   DepName <br/>
-    FROM seller INNER JOIN department <br/>
-    ON seller.DepartmentId = department.Id <br>
+  - SELECT seller.*, department.Name as DepName <br/>
+    FROM seller <br/>
+    INNER JOIN department ON seller.DepartmentId = department.Id <br/>
     WHERE seller.Id = ?
 
 #### ResultSet (table)
@@ -68,3 +68,14 @@ private Department instantiateDepartment(ResultSet resultSet) throws SQLExceptio
     return department;
 }
 ```
+## Implementando findByDepartment SellerDao
+
+- SQL Query:
+  - SELECT seller.*,department.Name as DepName <br/>
+    FROM seller <br/>
+    INNER JOIN department ON seller.DepartmentId = department.Id <br/>
+    WHERE DepartmentId = ? <br/>
+    ORDER BY Name
+
+#### Diagramas
+![image](https://raw.githubusercontent.com/devjleonardo/assets/main/acesso-a-banco-de-dados-com-jdbc-java/06%20-%20Projeto%20DAO-JDBC/04%20-%20Implementando%20findByDepartment%20SellerDao/Diagrama.png)
