@@ -79,3 +79,12 @@ private Department instantiateDepartment(ResultSet resultSet) throws SQLExceptio
 
 #### Diagramas
 ![image](https://raw.githubusercontent.com/devjleonardo/assets/main/acesso-a-banco-de-dados-com-jdbc-java/06%20-%20Projeto%20DAO-JDBC/04%20-%20Implementando%20findByDepartment%20SellerDao/Diagrama.png)
+
+## Implementando findAll SellerDao
+
+- SQL Query:
+  - SELECT seller.*,department.Name as DepName <br/>
+    FROM seller <br/>
+    INNER JOIN department ON seller.DepartmentId = department.Id <br/>
+    ORDER BY Name
+
