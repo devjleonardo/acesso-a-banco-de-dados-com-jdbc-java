@@ -1,0 +1,2 @@
+## Preparação do primeiro projeto
+![image](https://raw.githubusercontent.com/devjleonardo/assets/main/acesso-a-banco-de-dados-com-jdbc-java/02%20-%20Prepara%C3%A7%C3%A3o%20do%20primeiro%20projeto/Prepara%C3%A7%C3%A3o%20do%20primeiro%20projeto%20no%20Eclipse.png)
