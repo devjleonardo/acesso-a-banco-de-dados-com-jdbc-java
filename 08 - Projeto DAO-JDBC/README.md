@@ -93,3 +93,10 @@ private Department instantiateDepartment(ResultSet resultSet) throws SQLExceptio
 - SQL Query:
     - INSERT INTO seller (Name, Email, BirthDate, BaseSalary, DepartmentId) <br/>
       VALUES (?, ?, ?, ?, ?)
+
+## Implementando update SellerDao
+
+- SQL Query:
+    - UPDATE seller <br/>
+      SET Name = ?, Email = ?, BirthDate = ?, BaseSalary = ?, DepartmentId = ? <br/>
+      WHERE Id = ?
