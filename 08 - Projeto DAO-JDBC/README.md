@@ -88,3 +88,8 @@ private Department instantiateDepartment(ResultSet resultSet) throws SQLExceptio
     INNER JOIN department ON seller.DepartmentId = department.Id <br/>
     ORDER BY Name
 
+## Implementando insert SellerDao
+
+- SQL Query:
+    - INSERT INTO seller (Name, Email, BirthDate, BaseSalary, DepartmentId) <br/>
+      VALUES (?, ?, ?, ?, ?)
